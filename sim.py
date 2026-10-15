@@ -8,7 +8,7 @@ density = 1000 # kg/m^3
 gravity = 9.81 # m/s^2
 radius = 0.003 # m
 
-FPS = 3000
+FPS = 1000
 SIM_HEIGHT = 0.03
 VIEW_HEIGHT = 0.03
 RESOLUTION = 600
@@ -48,6 +48,7 @@ def update(frame):
     ax.set_xlim(-5 * radius, 5 * radius)
     ax.plot(-wave - radius, clipped_y, c="tab:blue")
     ax.plot(wave + radius, clipped_y, c="tab:blue")
+    ax.set_title(f"t = {t * 1000 :.0f} ms")
 
 fig, ax = plt.subplots()
 ani = FuncAnimation(fig, update, interval=1000 / 30)
