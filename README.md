@@ -2,7 +2,7 @@
 
 Code supporting my physics research on stationary capillary waves generated when a water jet meets an obstacle.
 
-| Measurement tool (measure.py) | Simulation (sim.py) |
+| Measurement tool (`measure.py`) | Simulation (`sim.py`) |
 | --- | --- |
 | <img src="readme_assets/measure_screenshot.png" alt="Measurement tool screenshot" height="300"> | <img src="readme_assets/sim_animation.gif" alt="Simulation animation" height="300"> |
 
